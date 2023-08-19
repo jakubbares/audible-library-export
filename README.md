@@ -20,7 +20,7 @@ Follow these steps to use the script and import your Audible library to Goodread
 
 4. **Paste and Execute the Script**: In the console, paste the code you copied from the `audible_to_goodreads.js` file and press Enter. The script will start fetching data from your Audible library and display the output in the console.
 
-5. **Save Console Output as JSON**: Copy the output from the console and save it as a JSON file on your local machine. This JSON file contains your Audible library data.
+5. **Save Console Output as JSON**: Right-click on the response in the console and press copy object. Open a text file and save as JSON.
 
 6. **Reformat JSON to XLS**: You need to convert the JSON file to an XLS (Excel) format. You can use various online tools or software to accomplish this. The JSON data should be converted into a tabular format that matches the template provided in the [Goodreads Sample Export CSV](https://www.goodreads.com/assets/sample_export.csv).
 
