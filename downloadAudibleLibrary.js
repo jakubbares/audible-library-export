@@ -168,8 +168,8 @@ async function initAubibleLibraryMiner(){
             return {
             url: cn(ul,title_class)[0] && cn(ul,title_class)[0].parentElement ? cn(ul,title_class)[0].parentElement.href?.replace(/\?.+/,'') : '',
             title: cn(ul,title_class)[0] ? cn(ul,title_class)[0].innerText.trim() : '',
-            author: author && cn(author,'bc-size-callout')[0] ? cn(author,'bc-size-callout')[0].innerText.trim() : '',
-            narrator: narrator && cn(narrator,'bc-size-callout')[0] ? cn(narrator,'bc-size-callout')[0].innerText.trim() : '',
+            author: author && cn(author,'bc-color-base')[0] ? cn(author,'bc-color-base')[0].innerText.trim() : '',
+            narrator: narrator && cn(narrator,'bc-color-base')[0] ? cn(narrator,'bc-color-base')[0].innerText.trim() : '',
             series: series && tn(series,'a')[0] ? tn(series,'a')[0].innerText.trim() : '',
             }
         }) : [];
